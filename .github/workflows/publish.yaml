@@ -29,6 +29,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # 确保 GITHUB_TOKEN 是在你的 GitHub 仓库的 Secrets 中设置的
+          github_token: ${{ secrets.PERSONAL_TOKEN }}  # 确保 GITHUB_TOKEN 是在你的 GitHub 仓库的 Secrets 中设置的
           publish_branch: gh-pages  # 指定推送到哪个分支
           publish_dir: ./public  # Hugo 默认的构建输出目录
