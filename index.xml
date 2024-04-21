@@ -13,11 +13,11 @@
     <language>en-us</language>
     <atom:link href="https://anaruliu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My 1st post</title>
-      <link>https://anaruliu.github.io/posts/test/</link>
+      <title>Welcome page</title>
+      <link>https://anaruliu.github.io/posts/welcome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://anaruliu.github.io/posts/test/</guid>
-      <description>Desc Text.</description>
+      <guid>https://anaruliu.github.io/posts/welcome/</guid>
+      <description>I just want to say hi to everyone who see this page. This blog will focus on everything about large language models (LLMs) especially the multimodal LLMs. The following architecture is foundation of LLMs. We may start introducing LLMs from here. </description>
     </item>
   </channel>
 </rss>
