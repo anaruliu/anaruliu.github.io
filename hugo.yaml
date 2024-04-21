@@ -46,14 +46,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: favicon.png
+    favicon16x16: favicon.png
+    favicon32x32: favicon.png
+    apple_touch_icon: favicon.png
+    safari_pinned_tab: favicon.png
 
   label:
-    text: "Home"
+    text: "Anaru Liu"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -74,16 +74,14 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Bio \U0001F44B"
+    Content: AI/ML Developer, Multimodal LLMs Researcher
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: Linkedin
+      url: "https://www.linkedin.com/in/anaru-liu-7551611b3/"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/anaruliu"
 
   analytics:
     google:
@@ -117,17 +115,20 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
-      weight: 10
+      weight: 20
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
